@@ -1,0 +1,14 @@
+Water-fall model : 첫 설계를 길게하여 완벽에 가깝도록 만들고 그 상태에서 오류가 발생하면 다시 재설계, 디버깅을 못하는 개발 알고리즘.
+(한번만에 완벽하게 작동해야만하는 안전과 같은 한번에 타격이 큰 제품, 은행업무와 같은 변화점이 거의 없는 제품에 필요)
+Agile(민첩한) Processing model : 설계기간을 짧게하고 공개하고 피드백/버그 리포트를 토대로 계속 재설계, 디버깅하는 개발 알고리즘.
+(SNS와 같은 변화점이 많은 제품에 필요)
+작은 서비스를 개발하더라도 포기 하지말고 만들자!
+
+Agile Processing의 첫 결과물은 만드려는 서비스의 핵심이 되는 요소가 있는것.
+(ex. 채팅 앱을 만들때 로그인만 할 수 있는 로그인 앱이 아닌 채팅을 보낼수 있는 앱을 만들어라.)
+
+Application Service Model의 종류
+1. Server - Client : 서버는 뒤에 있다는 뜻으로 Back-End, 클라이언트는 앞에 있다는 뜻으로 Front-end, 사용자와 처음 만나고 Front-end 맨 끝에 있다는 뜻으로 단말기가 있음.
+1-1. 서버 측에는 Web/Application Server(WAS), DataBase Server(DBS)가 있음. 클라이언트 측에는 Client Application이 있음.
+1-2. 사용자는 단말기와 얼굴 맞대듯 상호작용하고, 단말기는 Client Application과 상호작용한다. Client Application하고 WAS와 상호작용하고, WAS는 DBS하고도 상호작용함.
+2. Peer to Peer (P2P) : 직역하면 친구랑 친구 방식, 리소스를 클라이언트의 컴퓨터에서 사용함, 예전 스타크래프트도 사용함. 사양 안좋으면 개느림, 대표적이고 완전한 P2P 서비스는 토렌트임.
