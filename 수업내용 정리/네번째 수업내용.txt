@@ -18,3 +18,19 @@
     TMI. 성수썜은 사설토토의 DB에 접근해 털어봤음. => 헛점 발견 => 매일같이 4~500씩 통장에 꽃힘. => 경험하니까 삶이 허무하게 느껴짐.
     
 사람의 행복지수는 일정수치 이상 상승하면 더이상 오르지 않는다. (sweet spot까지만 미친듯이 오른다)
+---
+아이디어 -> 객체 -> 코드
+#아이디어를 객체를 코드로 옮길때
+    객체(Object, type) -> 객체 안에 객체를 정의하는 것 (사자라는 객체에 눈이라는 객체를 만들어야 하는것.), class -> class명 맨 첫글자는 '대문자' 필수!
+    속성(variable, 변수) -> Primitive Type*(가장 처음 생긴, 기본적인 type)으로 표현되지 않을때, 객체로 표현해야 함, Object or Primitive Type.
+    동작(function, 함수[input과 output]) -> method, 
+
+돌쪼가리를 이용해 일정 전류이상 흐르게 만듦. -> 흐르면 1, 안흐르면 0이라고 의미 부여함.
+이걸 돌쪼가리(X) -> bit(O)/ bit를 8개 모여야 글자표현 ㄱㄴ -> 이걸 byte라고 부름.
+
+# primitive type* 정리
+    정수 -> int, short(x), long()
+    실수 -> float, double
+    논리 -> boolean
+    문자 -> char
+    bit -> byte
