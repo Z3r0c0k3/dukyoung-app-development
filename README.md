@@ -19,3 +19,12 @@
 * 아이디어 -> 객체 -> 코드
 * 아이디어를 객체로 만드는 방법->모두의 작은 문제를 해결하거나, 소수의 큰문제를 해결하면 됨.
 * 나머지는 수업내용 정리 참고.
+## 23.06.05 - 다섯번째 수업 (수업내용 txt file 참고)
+* 객체 -> (속성, 동작), 객체는 class, 속성은 variable, 동작은 method.
+* Use Case -> 사용 사례, 핵심 내용이 들어간 성공적인 Use Case를 중심으로 실패, 중간 Use Case를 작성.
+---
+* idea -> object -> code 총정리
+    1. Use Case 작성.
+    2. 객체, 속성, 동작 구분
+    3. 구현 (Implementation)
+    4. Debug / Feedback
