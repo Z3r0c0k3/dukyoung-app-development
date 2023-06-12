@@ -22,7 +22,6 @@
 ## 23.06.05 - 다섯번째 수업 (수업내용 txt file 참고)
 * 객체 -> (속성, 동작), 객체는 class, 속성은 variable, 동작은 method.
 * Use Case -> 사용 사례, 핵심 내용이 들어간 성공적인 Use Case를 중심으로 실패, 중간 Use Case를 작성.
----
 * idea -> object -> code 총정리
     1. Use Case 작성.
     2. 객체, 속성, 동작 구분
