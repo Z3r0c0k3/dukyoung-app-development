@@ -1,19 +1,14 @@
 class Kiosk_TUI {
-    
+
+    String hello_msg = "ㅎㅇ"
+    int cash = 1000000;
+
     public static void main(String[] args){
-        
-        int a = 9;
-        boolean b = true;
-        char c = 'd';
-        double d = 3.14;
-        String e = "shut your mouth!";
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
+    }
 
+    int pay(){
+        return 500;
     }
 
 }
