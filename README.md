@@ -41,3 +41,5 @@
 ## 23.07.10 - 8번째 수업 (수업내용 txt file 참고)
 * 미국 경제 대공황을 그린 'big short'라는 영화 줄거리
 * 모르는게 무서운게 아니라 잘못아는게 무서운 것.
+* 1학년들을 위한 함수 설명 타임.
+* 어떤 객체의 생성자를 만들었을때 리턴 타입은 생성자와 같다. (constructor name = Menu, Return type = Menu) | *constructor : 생성자
