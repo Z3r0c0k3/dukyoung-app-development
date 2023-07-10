@@ -1,22 +1,19 @@
 class Kiosk_TUI {
 
-    String hello_msg = "ㅎㅇ";
+    String hello_msg = "hi";
     int cash = 1000000;
 
     public static void main(String[] args){
-        Kiosk_TUI myKiosk = new Kiosk_TUI();
-        Kiosk_TUI fuckKiosk = myKiosk;
-        fuckKiosk.hello_msg = "Fuck You";
-        fuckKiosk.cash = 100;
-
-        System.out.println( myKiosk.cash );
-        System.out.println( myKiosk.hello_msg );
-        System.out.println( myKiosk.pay() );
-        System.out.println( myKiosk );
+        System.out.println(add(1));
     }
 
     int pay(){
         return 500;
     }
 
+    static int add(int a){
+        int b = a + 10000;
+        return b;
+    }
+    
 }
