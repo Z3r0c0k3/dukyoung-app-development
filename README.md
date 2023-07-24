@@ -48,3 +48,4 @@
 * 이번에 발생한 호우주의보 썰.
 * 오랜만에 듣는 수업을 위한 OOP 복습 타임.
 * 전시간에 나온 constructor(생성자) 관련 복습.
+* constructor가 정의되지 않은 상태로 constructor를 실행했을 때도 new object를 생성함.

@@ -1,6 +1,6 @@
 class Menu {
-    String name;
-    int price;
+    String name = "세뇨르";
+    int price = 3000;
 
     Menu (String name, int price){
         this.name = name;

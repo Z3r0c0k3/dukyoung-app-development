@@ -3,3 +3,4 @@
 올만에 왔으니 OOP 재학습
 constructor 복습
 ---
+constructor가 정의되지 않은 상태로 constructor를 실행했을 때도 new object를 생성함.
