@@ -49,3 +49,4 @@
 * 오랜만에 듣는 수업을 위한 OOP 복습 타임.
 * 전시간에 나온 constructor(생성자) 관련 복습.
 * constructor가 정의되지 않은 상태로 constructor를 실행했을 때도 new object를 생성함.
+* 숙제 : 저 Kiosk_TUI 프로그림이 실행되면서 메모리에 무슨 일이 일어나는지 그려서 쌤한테 갠톡으로 보내기.

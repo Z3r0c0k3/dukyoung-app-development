@@ -4,3 +4,8 @@
 constructor 복습
 ---
 constructor가 정의되지 않은 상태로 constructor를 실행했을 때도 new object를 생성함.
+extends : 부모 클래스의 속성을 고대로 가진다는 뜻. 확장 느낌?
+super : 상속받는 부모를 가르킴.
+this : 클래스 생성자 함수 밖에 정의된 변수를 가져오는 놈?
+---
+숙제 : 저 Kiosk_TUI 프로그림이 실행되면서 메모리에 무슨 일이 일어나는지 그려서 쌤한테 갠톡으로 보내기.
