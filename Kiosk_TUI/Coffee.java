@@ -8,4 +8,9 @@ class Coffee extends Beverage{
         this.decaffenine = decaffenine;
         this.origin = origin;
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + "카페인 유무: " + (decaffenine ? "무|" : "유|") + "원산지: " + origin;
+    }
 }
