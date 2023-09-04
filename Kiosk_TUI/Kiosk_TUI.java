@@ -1,9 +1,7 @@
-import java.io.IOException;
-import java.util.Scanner;
+import java.io.IOException; // 입출력 관련 예외 처리를 위한 패키지
+import java.util.Scanner; // 사용자 입력을 받기 위한 패키지
 
-import javax.swing.text.Style;
-
-class Kiosk_TUI {
+class Kiosk_TUI {    
 
     Menu[] menus = new Menu[10];
 
@@ -13,12 +11,12 @@ class Kiosk_TUI {
         myKiosk.menus[1] = new Menu("macaron", 4500);
         myKiosk.menus[2] = new Beverage("lemonade",3000, true);
         myKiosk.menus[3] = new Beverage("greentea", 3600, false);
-        myKiosk.menus[4] = new Coffee("hot americano",3000,true,false,"콜롬비아");
+        myKiosk.menus[4] = new Coffee("hot americano",3000,false,false,"콜롬비아");
         myKiosk.menus[5] = new Coffee("ice americano",3500,true,false,"콜롬비아");
-        myKiosk.menus[6] = new Coffee("hot americano",3000,true,false,"과테말라");
+        myKiosk.menus[6] = new Coffee("hot americano",3000,false,false,"과테말라");
         myKiosk.menus[7] = new Coffee("ice americano",3500,true,false,"과테말라");
-        myKiosk.menus[8] = new Coffee("cafe moca",4500,false,false,"콜롬비아");
-        myKiosk.menus[9] = new Coffee("ceramel coffee",4500,false,false,"콜롬비아");
+        myKiosk.menus[8] = new Coffee("cafe moca",4500,true,false,"콜롬비아");
+        myKiosk.menus[9] = new Coffee("ceramel coffee",4500,true,false,"콜롬비아");
 
         myKiosk.showMenus();
         System.out.print("원하는 메뉴를 입력해주세요(1~10): ");
