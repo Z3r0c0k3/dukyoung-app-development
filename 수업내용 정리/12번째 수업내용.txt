@@ -1,0 +1,6 @@
+myScanner에 nextLine: 저게 없으면 1개의 문자(문자열 X)만 받아옴. nextLine이 있으면 enter를 치기 전에 모든 문자열을 가져옴.
+try-catch문: 다양한 오류, 성공 시나리오를 제외한 상황을 검증, 체크하기 위해 존재하는 중요한 구문.
+parseInt: parse 뜻 자체가 무언가 바꾼다는 뜻인데, parseInt는 integer형으로 형변환을 하겠다는 구문.
+throw: catch 문이 있는 곳으로 던저줌.
+Exception: 예외 라는 뜻을 내포하고 있는 객체. 한마디로 use case에서 성공 시나리오를 제외한 나머지 변수를 통해 일어날 수 있는 상황을 대비 할 때 사용.
+myKiosk.payment(selectedNumber): payment는 Kiosk_TUI에 있다. main에서 payment는 접근하지 못하는것 그렇기에 myKiosk를 통해 Kiosk_TUI 클래스 안에 있는 payment에 접근한것.

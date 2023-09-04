@@ -5,5 +5,5 @@
 
 모르는게 무서운게 아니라 잘못 알고 있는게 무서운것.
 ---
-어떤 객체를 정의 시, 생성자를 만들었을때 리턴 타입은 생성자와 같다. (constructor name = Menu, Return type = Menu) | *constructor : 생성자
+어떤 객체를 정의 시, 생성자를 만들었을때 리턴 타입은 생성자와 같다. (ex. constructor name = Menu, Return type = Menu) | *constructor : 생성자
 (보강)
