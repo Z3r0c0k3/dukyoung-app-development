@@ -2,10 +2,10 @@
 ---
 android 시작.
 android development 때 많은 component(요소) 중에 핵심적인 4가지 component.
-    - Activity
-    - 
-    - 
-    - 
+    - Activity - Controller(+View)
+    - Service - Background
+    - Broadcast Receiver
+    - Content Provider
 다양한 Application Model 중에서 android가 채택한 모델: Model View Controller
 - Model(Data): Application의 객체들. 데이터 부분. ~~헷갈리는 부분~~
     - View(Design): 시각적으로 보이는 것. 한마디로 디자인 부분.
