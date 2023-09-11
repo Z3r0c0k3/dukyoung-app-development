@@ -2,8 +2,7 @@ HTML: Hyper Text Markup Language의 약자로, 많은 웹사이트에서 지금�
 XML: eXtended Markup Language의 약자로, 마크업 언어의 확장판.
 
 ## Activity
-Activity: 사용자와 직접 상호작용을 하는 component. 화면(Controller)을 담당. 각 Activity 별로 Controller가 존재.
-MainActivity: 한마디로 메인화면. (자세한건 13번째 수업내용 참고)
+Activity: 사용자와 직접 상호작용을 하는 component. 화면(Controller)을 담당. 각 Activity 별로 Controller가 존재. MainActivity가 메인 화면(객체)로 기본설정.
 Context: 직역하면 맥락, Text와 Text를 이어주는 놈. android에선 앱 간 이벤트 발생으로 타 앱으로 이동했을때 왔다갔다 할때 존재하는 중간지점같은 객체.
 Intent: 
 
