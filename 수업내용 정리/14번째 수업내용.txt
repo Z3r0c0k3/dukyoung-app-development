@@ -1,0 +1,17 @@
+HTML: Hyper Text Markup Language의 약자로, 많은 웹사이트에서 지금도 사용중.
+XML: eXtended Markup Language의 약자로, 마크업 언어의 확장판.
+
+## Activity
+Activity: 사용자와 직접 상호작용을 하는 component. 화면(Controller)을 담당. 각 Activity 별로 Controller가 존재.
+MainActivity: 한마디로 메인화면. (자세한건 13번째 수업내용 참고)
+Context: 직역하면 맥락, Text와 Text를 이어주는 놈. android에선 앱 간 이벤트 발생으로 타 앱으로 이동했을때 왔다갔다 할때 존재하는 중간지점같은 객체.
+Intent: 
+
+## Service
+Serice: 백그라운드 실행 component. ~~리눅스 데몬과 비슷한 백그라운드 실행 component~~
+
+## Broadcast Receiver
+Broadcast Receiver: 내부 정보(디바이스 상태 정보 등)를 현재 RAM에 올라가 있는 모든 프로세스에게 알려주는 component.
+
+## Content Provider
+Content Provider: 직역하면 내용물 제공자 즉, 제공 될 데이터들을 리스트화 한 상태로 Intent 등과 같은 이벤트에 필요한 리스트화 된 데이터를 제공하는 component.
