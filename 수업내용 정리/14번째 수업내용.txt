@@ -10,7 +10,7 @@ Intent:
 Serice: 백그라운드 실행 component. ~~리눅스 데몬과 비슷한 백그라운드 실행 component~~
 
 ## Broadcast Receiver
-Broadcast Receiver: 내부 정보(디바이스 상태 정보 등)를 현재 RAM에 올라가 있는 모든 프로세스에게 알려주는 component.
+Broadcast Receiver: 안드로이드(OS)가 알려주는 내부 정보(디바이스 상태 정보 등)를 수신받는 component.
 
 ## Content Provider
-Content Provider: 직역하면 내용물 제공자 즉, 제공 될 데이터들을 리스트화 한 상태로 Intent 등과 같은 이벤트에 필요한 리스트화 된 데이터를 제공하는 component.
+Content Provider: 직역하면 내용물 제공자 즉, 타 앱, 소스에 있는 콘텐츠를 지금 내가 쓰고 있는 앱에 콘텐츠를 제공해주는 component. ~~앱과 앱 사이에 껴서 사진, 동영상 등과 같은 콘텐츠를 제공해주는 다리 역할을 하는 놈~~
