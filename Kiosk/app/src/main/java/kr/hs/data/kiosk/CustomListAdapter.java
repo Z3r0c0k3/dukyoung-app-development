@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -36,15 +37,23 @@ public class CustomListAdapter extends BaseAdapter {
 
         if (convertView == null){
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView: inflater.inflate(R.layout.custom_list_item, parent, false);
+            convertView = inflater.inflate(R.layout.custom_list_item, parent, false);
         }
 
         TextView menuName = convertView.findViewById(R.id.menu_name);
         TextView menuPrice = convertView.findViewById(R.id.menu_price);
+        ImageView menuThumnail = convertView.findViewById(R.id.menu_thumnail);
+
 
         menuName.setText(listItem.name);
-        menuPrice.setText(listItem.price);
+        menuPrice.setText(listItem.price+"원");
+        menuThumnail.setImageResource(listItem.thumnail);
 
         return convertView;
     }
+
+    public void addMenu(Menu menu){
+        items.add(menu);
+    }
+
 }

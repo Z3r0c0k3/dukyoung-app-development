@@ -3,9 +3,8 @@ class Coffee extends Beverage{
     boolean decaffenine;
     String origin;
 
-    Coffee(String name, int price, boolean ice,
-        boolean decaffenine, String origin){
-        super(name, price, ice);
+    Coffee(String name, int price, boolean ice, boolean decaffenine, String origin, int thumnail){
+        super(name, price, ice, thumnail);
         this.decaffenine = decaffenine;
         this.origin = origin;
     }

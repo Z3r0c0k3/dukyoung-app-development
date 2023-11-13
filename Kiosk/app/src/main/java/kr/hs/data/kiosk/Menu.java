@@ -2,14 +2,16 @@ package kr.hs.data.kiosk;
 class Menu {
     String name = "hello world!";
     int price = 3000;
+    int thumnail = -1;
 
     Menu(String name){
         this.name = name;
     }
 
-    Menu (String name, int price){
+    Menu (String name, int price, int thumnail){
         this.name = name;
         this.price = price;
+        this.thumnail = thumnail;
     }
 
     @Override
