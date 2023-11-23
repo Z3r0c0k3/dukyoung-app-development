@@ -1,5 +1,8 @@
 package kr.hs.data.kiosk;
-class Menu {
+
+import java.io.Serializable;
+
+class Menu implements Serializable {
     String name = "hello world!";
     int price = 3000;
     int thumnail = -1;
